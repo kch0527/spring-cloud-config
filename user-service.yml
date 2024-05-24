@@ -1,0 +1,16 @@
+spring:  
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/chan_db?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&serverTimezone=Asia/Seoul
+    username: root
+    password: '{cipher}AQAawIxW6CHVWOgoHAMp17IMIyNDUNMhgSZFE08HjIwDH1aK+2g40o5nIW+SQ9DTR1I5bgxbhIbCCRIjZhXM322E/R0gLdrfkdsY0CaluOH3lk5FFVbKAf6nQD3RxD4+Du6IMPXNRdJSB8XqU0d57Q3BEtQGtAnoxmOVqkCIlTesmPFv0lIrHGTgG9iJnEmwxzYE/0iKCWrx08lPk3EUrOsCZcKMqRv5SYAbtr3aaAX3CEKBPBIi10a0Mb26BakwW8giIFI9g4JLJp46IGG77tziZYPincMHBhhbke4Lu30I/5nal4kcgq4I6mxfQC5M/nCeGOCHx/0vKLi6x6E6lIF+/6IhUix0u+B7Hh/yzv4Bnx0iKDl9RGWs9aWESjCQRuI='
+
+token:
+  expiration_time: 86400000
+  secret: user_token_token_token
+
+gateway:
+  ip:192.168.55.87
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
