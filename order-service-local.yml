@@ -1,0 +1,11 @@
+spring:  
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/chandb
+    username: root
+    password: '{cipher}AQBKpEBIs0XBXOYvfsDgrQgYHHFY0Q4DEEgDwFue1EpuUZt5Bv4jQ97PlIv0YlEzY0R0RD28Uhwj49hrAhmLcpmCwjLFmp3Rvf6e/FGu7SLdwJumYGjOZfPDt/QFt/MEwAcY5m7Wg8os2wQU0ouzFuk5gBcpbG7JtFv9hxHBWWrHoLFam6tNQ8+10jyZ6NzwBsqejm39FWohUlNz0xWti7Qvz4dXyf9Khe7f35093EiCy7ceznZ5TisLEV4f0uw/BhUNDHbQQsevZZHu454pOjNjMF8nUieYIR3M71XEMpsz9+0rhrvzNR2Qv41V63BNEbnRLmXxvVOALY7HFKpTPo/DAiCrS2uS5bIndQPIDQJw+n/yHfzhKFaAxJc5Y9nJys4='
+
+
+token:
+  expiration_time: 86400000
+  secret: user_token_token_token
